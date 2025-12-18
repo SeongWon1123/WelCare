@@ -1,0 +1,43 @@
+# 별빛달빛 (WelCare) - Backend Dependencies
+# FastAPI 서버 및 AI 음성 대화 시스템
+
+# ===================
+# Web Framework
+# ===================
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# ===================
+# Environment
+# ===================
+python-dotenv>=1.0.0
+
+# ===================
+# Speech-to-Text (STT)
+# ===================
+SpeechRecognition>=3.10.0
+pydub>=0.25.1
+
+# ===================
+# AI / LLM
+# ===================
+openai>=1.3.0
+
+# ===================
+# Text-to-Speech (TTS)
+# ===================
+elevenlabs>=0.2.26
+
+# ===================
+# Utilities
+# ===================
+httpx>=0.25.0
+
+# ===================
+# System Requirements (설치 필요)
+# ===================
+# FFmpeg - pydub 오디오 변환에 필요
+# Ubuntu/Debian: sudo apt install ffmpeg
+# macOS: brew install ffmpeg
+# Windows: https://ffmpeg.org/download.html

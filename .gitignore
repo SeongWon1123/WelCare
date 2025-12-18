@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+server/__pycache__/
+server/.env
+server/.venv/
+venv/
+env/
+
+# Android
+.gradle/
+.idea/
+*.iml
+local.properties
+**/build/
+*.apk
+*.aab
+
+# 민감정보
+api key.txt
+*.txt
+
+# 문서 (개인정보 포함)
+*.xlsx
+*.pdf
+2학기/
+
+# 기타
+*.log
+node_modules/
